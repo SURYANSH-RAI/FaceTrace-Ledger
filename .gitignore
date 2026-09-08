@@ -1,0 +1,92 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+/.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ==========================================
+# Next.js & Web App Build Outputs
+# ==========================================
+.next/
+/out/
+/build
+/dist
+*.tsbuildinfo
+next-env.d.ts
+
+# ==========================================
+# Hardhat, Solidity & Smart Contracts
+# ==========================================
+/cache/
+/artifacts/
+/typechain/
+/typechain-types/
+coverage/
+coverage.json
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+*.env
+*.pem
+*.key
+
+# Preserve example environment template
+!.env.example
+
+# ==========================================
+# Debug & Log Files
+# ==========================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# ==========================================
+# IDE & Code Editor Configurations
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# ==========================================
+# Vercel & Turbo Deployments
+# ==========================================
+.vercel
+.turbo
